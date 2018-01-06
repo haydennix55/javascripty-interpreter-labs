@@ -1,6 +1,8 @@
 # javascripty-interpreter-labs
 PPPL Labs using scala and functional programming to create an imperative javascript-ish language interpreter
 
+**All projects are set up as intellij projects and can be built using sbt**
+
 **If you wish to see the abstract syntax or inference rules, they are in the lab writeups (eg. labX.pdf) inside each lab folder.**
 
 ----
@@ -159,7 +161,6 @@ Functional Programming: Continuations (incontinuation-passingstyle). Thinking in
 
 ----
 
-**All projects are set up as intellij projects and can be built using sbt**
 
 
 
