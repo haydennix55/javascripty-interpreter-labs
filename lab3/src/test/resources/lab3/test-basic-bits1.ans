@@ -1,0 +1,10 @@
+# Evaluating ...
+6
+# Stepping ...
+##    0: ConstDecl(x,N(3.0),ConstDecl(f,Function(None,y,Binary(Plus,Var(x),Var(y))),ConstDecl(x,N(5.0),Call(Var(f),N(1.0)))))
+##    1: ConstDecl(f,Function(None,y,Binary(Plus,N(3.0),Var(y))),ConstDecl(x,N(5.0),Call(Var(f),N(1.0))))
+##    2: ConstDecl(x,N(5.0),Call(Function(None,y,Binary(Plus,N(3.0),Var(y))),N(1.0)))
+##    3: Call(Function(None,y,Binary(Plus,N(3.0),Var(y))),N(1.0))
+##    4: Binary(Plus,N(3.0),N(1.0))
+##    5: N(4.0)
+4

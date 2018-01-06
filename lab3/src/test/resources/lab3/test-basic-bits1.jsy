@@ -1,0 +1,5 @@
+const x = 3;
+const f = function(y) { return x + y };
+const x = 5;
+f(1)
+

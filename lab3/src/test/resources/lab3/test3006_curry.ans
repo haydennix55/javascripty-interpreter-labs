@@ -1,0 +1,10 @@
+# Evaluating ...
+java.util.NoSuchElementException: key not found: x
+# Stepping ...
+##    0: ConstDecl(g,Function(None,x,Function(None,y,Binary(And,Var(x),Var(y)))),Binary(Plus,Call(Call(Var(g),N(1.0)),N(0.0)),N(0.1)))
+##    1: Binary(Plus,Call(Call(Function(None,x,Function(None,y,Binary(And,Var(x),Var(y)))),N(1.0)),N(0.0)),N(0.1))
+##    2: Binary(Plus,Call(Function(None,y,Binary(And,N(1.0),Var(y))),N(0.0)),N(0.1))
+##    3: Binary(Plus,Binary(And,N(1.0),N(0.0)),N(0.1))
+##    4: Binary(Plus,N(0.0),N(0.1))
+##    5: N(0.1)
+0.1
